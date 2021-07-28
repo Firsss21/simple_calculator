@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" tools:context=".MainActivity">
+    <TextView android:id="@+id/tv_res_field" android:layout_width="match_parent" android:layout_height="110dp" android:inputType="number" android:padding="15dp" android:textSize="25sp"/>
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="horizontal">
+        <Button android:id="@+id/bt_calc_1" android:layout_width="match_parent" android:layout_height="match_parent" android:text="1"/>
+        <Button android:id="@+id/bt_calc_2" android:layout_width="match_parent" android:layout_height="match_parent" android:text="2"/>
+        <Button android:id="@+id/bt_calc_3" android:layout_width="match_parent" android:layout_height="match_parent" android:text="3"/>
+        <Button android:id="@+id/bt_calc_div" android:layout_width="match_parent" android:layout_height="match_parent" android:text="/"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="horizontal">
+        <Button android:id="@+id/bt_calc_4" android:layout_width="match_parent" android:layout_height="match_parent" android:text="4"/>
+        <Button android:id="@+id/bt_calc_5" android:layout_width="match_parent" android:layout_height="match_parent" android:text="5"/>
+        <Button android:id="@+id/bt_calc_6" android:layout_width="match_parent" android:layout_height="match_parent" android:text="6"/>
+        <Button android:id="@+id/bt_calc_multi" android:layout_width="match_parent" android:layout_height="match_parent" android:text="*"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="horizontal">
+        <Button android:id="@+id/bt_calc_7" android:layout_width="match_parent" android:layout_height="match_parent" android:text="7"/>
+        <Button android:id="@+id/bt_calc_8" android:layout_width="match_parent" android:layout_height="match_parent" android:text="8"/>
+        <Button android:id="@+id/bt_calc_9" android:layout_width="match_parent" android:layout_height="match_parent" android:text="9"/>
+        <Button android:id="@+id/bt_calc_sub" android:layout_width="match_parent" android:layout_height="match_parent" android:text="-"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="horizontal">
+        <Button android:id="@+id/bt_calc_0" android:layout_width="match_parent" android:layout_height="match_parent" android:text="0"/>
+        <Button android:id="@+id/bt_calc_clear" android:layout_width="match_parent" android:layout_height="match_parent" android:text="C"/>
+        <Button android:id="@+id/bt_calc_result" android:layout_width="match_parent" android:layout_height="match_parent" android:text="="/>
+        <Button android:id="@+id/bt_calc_add" android:layout_width="match_parent" android:layout_height="match_parent" android:text="+"/>
+    </LinearLayout>
+</LinearLayout>
